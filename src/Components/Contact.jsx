@@ -20,6 +20,7 @@ function Contact() {
         </div>
       </div>
   {/* Form start know */}
+  <div></div>
 
      <div className='form-container'> 
              <div className='container-wrapper'>
