@@ -1,0 +1,61 @@
+
+
+.about-swift, .cover-head {
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+}
+.content
+{
+    margin-bottom: 100px;
+}
+.cover-head h4
+{
+    font-size: 20px;
+    font-family: SwFont, Poppins, Inter, sans-serif !important;
+    font-weight: bold;
+    line-height: 1.43;
+}
+.aboutBgGrey
+{
+    background-color: #f4f4f4;
+    /* padding: 150px; */
+   
+}
+.deseases-sections
+{
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin: 10% auto 0;
+    padding: 3% 0;
+    width: 70%;
+    font-weight: 500;
+    margin-bottom: 140px;
+}
+.deseases-sections .head{
+              text-align: center;
+}
+
+/* Responsive Start */
+@media (max-width: 480px){
+    .services-main
+    {
+        display: block;
+        
+    }
+}
+@media (min-width: 481px) and (max-width: 767px)
+{
+    .services-main
+    {
+        display: block;
+    }
+    .cover-head h4
+    {
+        display: block;
+        text-align: left;
+        
+    }
+    
+}

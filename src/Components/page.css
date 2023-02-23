@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+.hero-section {
+    background: linear-gradient(33deg, #016cb2 49%, #19d5d3 89%);
+    overflow: hidden;
+    padding-top: 15vh;
+    position: relative;
+    color: white;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    z-index: 2;
+    padding-bottom: 80px;
+    padding-top: 170px;
+    padding-left: 150px;
+
+}
+
+.hero-section h1 {
+    font-size: 60px !important;
+    line-height: 70px !important;
+    margin-bottom: 2vh;
+    font-weight: bold;
+}
+
+.hero-section h4 {
+    font-family: SwFont;
+    font-size: 18px;
+    letter-spacing: 3.6px;
+    margin-bottom: 3vh;
+    opacity: 1;
+    text-align: left;
+}
+
+.hero-section p {
+    color: #fff;
+    font-size: 18px;
+    letter-spacing: 0;
+    margin-bottom: 7vh;
+    opacity: 1;
+    text-align: left;
+}
+
+.hero-section button {
+    padding: 6px 14px;
+    font-size: 0.9rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-family: SwFont, Poppins, Inter, sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    text-transform: none;
+    border: none;
+    font-size: 0.9rem;
+    color: #016CB2;
+    font-weight: bold;
+}
+
+/* .services-section .services-img{
+    object-fit: cover;
+    opacity: 1;
+    
+} */
+.cards-section {
+    background-color: #f1f6fe;
+}
+
+.featured-section {
+    /* max-width: 1440px; */
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.featured-section img {
+    object-fit: cover;
+    opacity: 1;
+    height: 124px;
+    width: 737px;
+    text-align: center;
+}
+
+.featured-section .img-div {
+    text-align: center;
+}
+
+.featured-section p {
+    color: rgb(40, 42, 43);
+    font-size: 0.9rem;
+    font-family: SwFont, Poppins, Inter, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 27px !important;
+    text-align: center;
+    padding-top: 5vh;
+    /* padding-bottom: 10vh */
+}
+
+.services-section .services-img img {
+    height: 100%;
+    /* width: 400px; */
+    max-width: 100%;
+}
+
+.cards-section {
+    /* padding: 12px; */
+    padding-bottom: 15vh;
+    padding-top: 15vh;
+    text-align: center;
+    /* max-width: 1440px; */
+
+}
+
+.cards-section button {
+    color: white;
+    box-shadow: none;
+    background-color: #016cb2;
+    padding: 6px 16px;
+    font-size: 0.9rem;
+    min-width: 64px;
+    border: none;
+    border-radius: 6px;
+}
+
+.cards-section button:hover {
+    background: linear-gradient(33deg, rgba(1, 108, 178, 1) 49%, rgba(25, 213, 211, 1) 89%);
+    box-shadow: none;
+    background-color: #d5d5d5;
+}
+
+.cards-section .card {
+    position: relative;
+}
+
+.cards-section .card-body {
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    justify-content: flex-start;
+    padding: 60px 10% 10%;
+    text-align: center;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    font-size: 0.875rem;
+    font-family: SwFont, Poppins, Inter, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+}
+
+.cards-section h5 {
+    color: #434f5e;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 0 5%;
+    text-align: center;
+    font-family: var(--main-font);
+    font-weight: 600;
+    /* font-family: 'Marcellus', serif; */
+    font-family: SwFont, Poppins, Inter, sans-serif;
+
+}
+
+.cards-section .cards-div {
+    justify-content: center;
+}
+
+.cards-section h3 {
+    /* color: rgba(0, 0, 0, 0.87); */
+    margin: 0;
+    font-size: 33px;
+    font-family: SwFont, Poppins, Inter, sans-serif;
+    font-weight: 400;
+    line-height: 1.43;
+    color: #434f5e;
+    font-family: var(--main-font);
+    font-weight: 600;
+}
+
+.cards-section p {
+    color: rgb(106, 123, 147);
+    font-size: 0.9rem;
+    /* font-family: SwFont, Poppins, Inter, sans-serif; */
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Marcellus', serif;
+}
+
+.cards-section .card img {
+    background-color: rgb(25, 213, 211);
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    padding: 20px;
+    left: 75px;
+    bottom: 200px;
+    box-shadow: 5px 5px 5px #cdcdcd85;
+}
+
+.cards-section .card {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 325px;
+    justify-content: center;
+    margin: 2rem 0;
+    width: 250px;
+    padding-top: 80px;
+    border: none;
+}
+
+.cards-section .button-div {
+    padding: 12px;
+}
+
+.services-section {
+    padding-bottom: 20vh;
+    padding-top: 15vh;
+    position: relative;
+}
+
+.services-section h3 {
+    color: #016cb2;
+    font-size: 33px;
+    line-height: 100%;
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-weight: bold;
+}
+
+.services-section p {
+    margin-bottom: 5vh;
+    color: #016cb2;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.services-section button {
+    color: white;
+    box-shadow: none;
+    background-color: #016cb2;
+    padding: 6px 16px;
+    font-size: 0.9rem;
+    min-width: 64px;
+    box-sizing: border-box;
+    font-family: SwFont, Poppins, Inter, sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    text-transform: none;
+    position: relative;
+    align-items: center;
+    user-select: none;
+    border: none;
+}
+
+.services-section button:hover {
+    background: linear-gradient(33deg, rgba(1, 108, 178, 1) 49%, rgba(25, 213, 211, 1) 89%);
+    box-shadow: none;
+    background-color: #d5d5d5;
+}
+
+.brands-section h4 {
+    font-size: 35px;
+    line-height: 52px;
+    font-family: SwFont, Poppins, Inter, sans-serif;
+    font-weight: 700;
+    color: #016cb2;
+}
+
+.brands-section .brands-head {
+    padding: 8px;
+    flex-grow: 0;
+    max-width: 100%;
+    flex-basis: 100%;
+
+}
+
+.brands-section {
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+.brands-section p {
+    color: #016CB2;
+    font-size: 0.9rem;
+    font-family: SwFont, Poppins, Inter, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+.brands-section .brands-para {
+    padding: 8px;
+}
+.nav-curve{
+    height: 150px; overflow: hidden; position: absolute; margin-top: -98px; width: 100%; z-index: 4;
+}
+
+.info-main .info-right img{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.info-main h6 {
+    font-size: .8rem !important;
+    letter-spacing: .2em;
+    font-weight: 600;
+    color: #016cb2;
+}
+
+.info-main h2 {
+    font-size: 33px;
+    /* margin-bottom: 25px; */
+    /* font-family: SwFont!important; */
+    font-weight: 500;
+    color: #016cb2;
+    font-weight: 700;
+}
+
+.info-main h5 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #016cb2;
+}
+.info-main .info-left{
+    max-width: 1440px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.info-main{
+    position: relative;
+    opacity: 1;
+}
+
+.info-main .info-right img{
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    width: 60%;
+    left: 40%;
+}
+.info-main .info-left p{
+    margin-bottom: 5vh;
+    color: #016cb2;
+    font-size: 20px;
+    line-height: 30px;
+}
+.info-main .info-btn-div button{
+    color: white;
+    box-shadow: none;
+    background-color: #016cb2;
+    padding: 6px 16px;
+    font-size: 0.9rem;
+    min-width: 64px;
+    font-family: SwFont, Poppins, Inter, sans-serif;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    text-transform: none;
+    border: none;
+}
+.info-main .info-left{
+    position: relative;
+    padding-bottom: 20vh;
+    padding-top: 15vh;
+    background-color: #fff;
+}
+
+
+@media (max-width:768px) {
+    .featured-section p{
+        font-size: 22px !important;
+    }    
+    .hero-section{
+        padding: 30px !important;
+        padding-top: 100px !important;
+    }
+    .hero-section h1{
+        font-size: 40px !important;
+        line-height: 45px !important;
+    }
+    .hero-section .image img{
+        width: 85%;
+    padding-top: 50px;
+    }
+
+    .hero-section p,h4,h1{
+        text-align: center !important;
+    }
+    .hero-section .hero-btn{
+        text-align: center;
+    }
+    .hero-section{
+        text-align: center;
+
+    }
+    .hero-section p{
+        margin-bottom: 28px !important;
+    }
+    .hero-section .image img{
+        width: 55% !important;
+    }
+    .cards-section h3{
+        font-size: 30px !important;
+        font-weight: 700;
+    }
+    .info-main .info-right img{
+        position: unset;
+    }
+    .info-main .info-right img {
+        width: 100%;
+    }
+    .info-main .info-left{
+        padding-left: 50px !important;
+        padding-right: 50px !important;
+
+    }
+    .info-right{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin-left: 100px;
+    }
+    
+}
+
+/* @media (max-width: 767px) {
+    .hero-section {
+        width: 1078px;
+    }
+
+    .featured-section {
+        width: 1078px;
+        padding-top: 150px;
+        padding-bottom: 200px;
+    }
+
+    .featured-section p {
+        font-size: 48px !important;
+    }
+
+    .cards-section h3 {
+        font-size: 68px;
+    }
+
+    .cards-section p {
+        font-size: 52px;
+        margin-bottom: 100px;
+    }
+
+    .cards-section .card img {
+        width: 260px;
+        height: 260px;
+        left: 240px;
+        bottom: 706px;
+    }
+
+    .cards-section .card-body {
+        padding-top: 200px;
+        margin-bottom: 100px;
+    }
+    .cards-section button {
+        height: 100px;
+        width: 500px;
+        font-size: 29px;
+    }
+
+    .cards-section .cards-div {
+        gap: 110px;
+    }
+
+    .cards-section {
+        width: 1078px;
+    }
+
+    .cards-section h5 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .cards-section button {
+        height: 70px;
+        width: 300px;
+        font-size: 22px;
+    }
+
+    .cards-section .cards-div {
+        flex-direction: column-reverse;
+    }
+
+    .cards-section .card {
+        height: 900px;
+        width: 100%;
+        width: 700px;
+    }
+    .brands-section .brands-head h4{
+        font-size: 52px;
+        margin-left: 100px;
+    }
+}  */

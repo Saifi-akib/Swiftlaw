@@ -1,0 +1,361 @@
+.services-main {
+    padding-top: 150px;
+    max-width: 1440px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 100px;
+}
+
+.services-main .services-right img {
+    max-width: 100%;
+    object-fit: none;
+    width: 100%;
+    /* height: 100%; */
+    max-height: 100%;
+    -o-object-fit: none;
+    object-fit: none;
+    width: 100%;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 76px;
+    right: -1px;
+    height: 56%;
+}
+.services-main svg{
+   height: 20%; 
+   width: 100%; 
+   position: absolute;
+    bottom: 42%; 
+    left: 0px;
+   stroke: none; 
+   fill: rgba(255, 255, 255, 0.75);
+}
+/* .services-main .services-right {
+    height: 150px;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+} */
+
+.services-main h6 {
+    font-size: .8rem !important;
+    letter-spacing: .2em;
+    font-weight: 600;
+    color: #016cb2;
+}
+
+.services-main h2 {
+    font-size: 33px;
+    margin-bottom: 25px;
+    /* font-family: SwFont!important; */
+    font-weight: 500;
+    color: #016cb2;
+    font-weight: 700;
+}
+
+.services-main h5 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #016cb2;
+}
+
+.about-swift {
+    max-width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.about-swift .para-div {
+    display: flex;
+    padding: 100px;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.services-outer {
+    color: #fff;
+}
+
+.services-outer p i {
+    color: #fff;
+   
+    padding: 2px;
+}
+
+.services-outer h3 {
+    font-size: 42px;
+
+    font-weight: 600;
+    line-height: 100%;
+
+}
+
+.services-outer p {
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.services-outer .check-div p {
+    margin-bottom: 20px;
+    /* margin-top: 20px; */
+    display: flex;
+    text-align: justify;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 1;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.services-outer .check-div p {
+    justify-content: flex-start !important;
+
+}
+
+.services-outer .check-div {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    align-self: center;
+    margin-top: 20px;
+}
+
+.services-outer {
+    background-image: url("/src/assets/doctor.png");
+    padding-left: 80px;
+    padding-right: 80px;
+    max-width: 100%;
+}
+
+.services-inner {
+    display: flex;
+    padding: 40px 10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+p span {
+    margin-left: 10px;
+    text-align: left;
+}
+
+.cover-points {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.cover-points p {
+    align-items: center;
+    color: #016cb2;
+    column-gap: 20px;
+    display: flex;
+    font-weight: bold;
+    padding-left: 2.5%;
+    width: 50%;
+    font-size: 1rem;
+    width: 90%;
+}
+
+.cover-points p i {
+    border: 1px solid #016cb2;
+    border-radius: 50%;
+    padding: 4px;
+    font-size: 10px;
+}
+
+.cover-points {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    row-gap: 15px;
+    width: 100%;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    justify-content: center;
+    margin: 10% auto 0;
+    padding: 3% 0;
+    width: 70%;
+}
+
+.cover-section {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 10% auto 0; */
+    padding: 3% 0;
+    width: 70%;
+    padding-bottom: 150px;
+    padding-top: 150px;
+}
+
+.cover-section h1 {
+    font-size: 52px;
+    line-height: 70px;
+    margin-bottom: 2vh;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inner-deseases .itemIllness {
+    align-items: center;
+    color: #fff;
+    column-gap: 20px;
+    display: flex;
+    font-weight: 500;
+    padding-left: 2.5%;
+    width: 33%;
+}
+
+.deseases-section {
+    align-items: center;
+    background-color: #016cb2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10% auto 0;
+    padding: 3% 0;
+    width: 70%;
+    font-weight: 500;
+    
+}
+
+.inner-deseases {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5%;
+    row-gap: 15px;
+    width: 100%;
+}
+
+.deseases-section .head {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    /* letter-spacing: .5px; */
+    margin-bottom: .1rem;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.para-div p {
+    opacity: 1;
+    font-size: 18px;
+    text-align: left;
+    line-height: 30px;
+    margin: 0;
+}
+
+.nav-curve2{
+    height: 150px; overflow: hidden; position: absolute; margin-top: -98px; width: 100%; z-index: 4;
+}
+
+.services-main .right-div img{
+    object-fit: cover;
+    opacity: 1;
+    transform: translateZ(0);
+    transition: opacity .25s linear;
+    will-change: opacity;
+}
+.lower-div {
+    position: relative;
+    padding-bottom: 20vh;
+    padding-top: 15vh;
+    background-color: #fff;
+}
+.lower-div .right-div{
+    max-height: 100%;
+}
+
+@media (min-width: 1200px) {
+    .para-div {
+        flex-grow: 0;
+        max-width: 50%;
+        flex-basis: 50%;
+        justify-content: space-around;
+    }
+
+    .about-swift .para-div {
+        margin: auto auto;
+    }
+}
+.cover-head h2{
+      text-align: center;
+      font-weight: 700;
+      font-size: 60px!important;
+    line-height: 70px!important;
+    /* margin-bottom: 2vh; */
+}
+@media (max-width: 767px) {
+    .para-div {
+        flex-grow: 0;
+        max-width: 80%;
+        flex-basis: 80%;
+        justify-content: space-around;
+    }
+
+    .about-swift .para-div {
+        /* margin: auto auto; */
+        padding: 0% !important;
+    }
+
+    .services-main .services-right img {
+        display: none;
+    }
+
+    .services-main {
+        background-image: url('/src/assets/services-hero.png');
+        max-width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+    .deseases-section {
+    width: 100%;
+    }
+    .nav-curve2{
+        margin-top: -195px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .services-main .services-right img {
+        height: 50%;
+        width: 100%;
+    }
+
+    .services-main .services-left {
+        z-index: 1;
+    }
+    .services-main svg{
+        bottom: 32%;
+    }
+    .cover-points{
+        /* display: flex; */
+        flex-wrap: nowrap;
+    }
+    .nav-curve2{
+        margin-top: -180px;
+    }
+}
+@media  (min-width: 1024px){
+    .cover-points{
+        /* display: flex; */
+        flex-wrap: nowrap;
+    }
+}
