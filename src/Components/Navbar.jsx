@@ -18,14 +18,30 @@ window.addEventListener('scroll', function() {
     }
   });
 
-
-
-
+  window.addEventListener('scroll', function(){
+    const navbar = document.querySelector('.bg-light');
+    if(window.scrollY < 10){
+        navbar.classList.remove('navbgcolor');
+    }
+    else {
+        navbar.classList.add('navbgcolor');
+    }
+  })
+ 
+  window.onscroll = function() {
+    var navbar = document.querySelector(".navbar");
+    if (window.scrollY > 0) {
+      navbar.classList.add("scroll");
+    } else {
+      navbar.classList.remove("scroll");
+    }
+  }
+ 
 function Navbar() {
     return (
         <>
 
-            <nav className="navbar navbar-expand-lg navbar-light bg-light">
+            <nav className="navbar navbar-expand-lg navbar-light bg-light" id='bg-light'>
                 <div className="container-fluid">
                     <a className="navbar-brand nav-logo" href="#">
                            <img src={logo} alt="" className='logo' /></a>
@@ -35,9 +51,10 @@ function Navbar() {
                         <span className="navbar-toggler-icon"></span>
                         
                     </button>
+          
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mb-2 mb-lg-0">
-                            <li className="nav-item">
+                        <ul className="navbar-nav mb-2 mb-lg-0" >
+                            <li className="nav-item" >
                                 <a className="nav-link " aria-current="page" href="/">HOME</a>
                             </li>
                             <li className="nav-item">

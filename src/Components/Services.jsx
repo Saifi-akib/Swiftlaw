@@ -64,16 +64,16 @@ function Services() {
           </div>
           <div className="cover-points">
             <div className="item-arrow-left">
-              <p><i class="fa fa-arrow-right"></i><b>Personal injury law :</b>Representing clients who have been injured.</p>
-              <p><i class="fa fa-arrow-right"></i><b>Business law :</b>Advising businesses and entrepreneurs on legal matters.</p>
-              <p><i class="fa fa-arrow-right"></i><b>Immigration law :</b>Helping clients with all aspects of immigration.</p>
+              <p>Personal injury law : Representing clients who have been injured.</p>
+              <p>Business law : Advising businesses and entrepreneurs on legal matters.</p>
+              <p>Immigration law : Helping clients with all aspects of immigration.</p>
               {/* <p><i class="fa fa-arrow-right"></i><b>Real estate law : </b>Assisting clients with the purchase, sale, leasing.</p> */}
               
             </div>
             <div className="item-arrow-right">
-              <p><i class="fa fa-arrow-right"></i><b> Family law :</b>providing advice and representation for clients dealing.</p>
-              <p><i class="fa fa-arrow-right"></i><b>Criminal law :</b>Representing clients charged with criminal offenses. </p>
-              <p><i class="fa fa-arrow-right"></i><b>Employment law :</b>Representing both employers and employees in matters.</p>
+              <p>Family law : Providing advice and representation for clients dealing.</p>
+              <p>Criminal law : Representing clients charged with criminal offenses. </p>
+              <p>Employment law :Representing both employers and employees in matters.</p>
               
               
             </div>

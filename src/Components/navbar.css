@@ -12,22 +12,34 @@
     font-family: SwFont, Poppins, Inter, sans-serif;
     font-weight: 500;
     line-height: 1.75;
-    
+    /* background: linear-gradient(36deg, #016cb2 15%, #19d5d3 84%); */
 
+}
+
+.bg-light {
+    background-color:transparent !important;
 }
 
 .logo.scrolled {
   content: url(../assets/swiftlaw-logo.png);
 }
-
-
+.bg-light.navbgcolor
+{
+    background-color: white !important;
+    
+}
+.navbar-nav .change-color
+{
+    color: red !important;
+}
 .logo.scrolled {
   max-width: auto;
+  width: 150px;
   height: 54px !important;
-  padding: 0 !important;
+  padding: 0px !important;
 }
 .navbar .nav-logo img {
-    height: 54px;
+    height: 50px;
     width: 150px;
     padding: 7px;
     
@@ -60,9 +72,13 @@
     justify-content: flex-end;
 }
 .navbar .navbar-nav .nav-link{
-    color:  rgb(1, 108, 178);
+    color: white;
 }
 
+.navbar.scroll .navbar-nav .nav-link  {
+    color: #016cb2;
+  }
+  
 .navbar .nav-item button:hover{
     /* background: linear-gradient(33deg, rgba(1,108,178,1) 49%, rgba(25,213,211,1) 89%); */
     box-shadow: none;
@@ -86,7 +102,7 @@
     border-radius: 50%;
 }
 .navbar .navbar-nav .nav-link{
-    margin-right: 35px !important;
+    margin-right: 18px !important;
     
 }
 @media (max-width:767px) {
@@ -94,6 +110,14 @@
         padding-left:20px ;
         padding-right:20px ;
     }
+    /* .mb-2 {
+        margin-bottom: 0.5rem!important;
+        background: white;
+        margin-top: 62px;
+        width: 100px;
+        border-radius: 10px;
+        
+    } */
 
     .navbar .nav-item button{
         display: none;

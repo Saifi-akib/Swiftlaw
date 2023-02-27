@@ -54,6 +54,7 @@
     font-size: 0.9rem;
     color: #016CB2;
     font-weight: bold;
+    background-color: white !important;
 }
 
 /* .services-section .services-img{
