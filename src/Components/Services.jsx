@@ -1,22 +1,31 @@
 import React from 'react'
 import './services.css'
-import img1 from '../assets/services-hero.png'
+import img1 from '../assets/lawyerbackground.jpg'
 import img2 from '../assets/doctor.png'
+import card1 from '../assets/will_essate.png'
+import card2 from '../assets/family_lawyer.png'
+import card3 from '../assets/debt_recovery.png'
+import card4 from '../assets/cirminal_law.png'
+import card5 from '../assets/immarigation_law.png'
+import card6 from '../assets/emplyoes_dis.png'
+import card7 from '../assets/real_state.png'
+import card8 from '../assets/personaly.png'
 function Services() {
   return (
     <>
+    
       {/* hero section */}
       <div className="container-fluid services-main">
         <div className="row pb-md-4">
           <div className="col-12 col-md-6 col-lg-6 col-sm-12 services-left">
             <h6>SwiftLAW offers</h6>
-            <h2> As a virtual legal platform, variety of legal services across different areas of law.</h2>
-            <h5> Here are a few examples of legal fields that SwiftLaw could provide services in:</h5>
+            <h2> As a virtual legal platform, SwiftLaw offers a variety of legal services across different areas of law. </h2>
+            <h5> Here are a few examples of legal fields that SwiftLaw can provide services in:</h5>
           </div>
 
           <div className="col-12 col-md-6 col-lg-6 col-sm-12">
             <div className="services-right">
-              <img src={img1} alt="" />
+              <img src={img1} alt="Lawyer-Background" style={{  objectFit:"cover" }} />
             </div>
           </div>
         </div>
@@ -28,7 +37,7 @@ function Services() {
             </path></svg></div>
 
       {/* about swiftdoc section */}
-      <div className="container-fluid">
+      {/* <div className="container-fluid">
        <div className="row">
        <div className="about-swift">
           <div className="para-div">
@@ -39,7 +48,99 @@ function Services() {
           </div>
         </div>
        </div>
-      </div>
+      </div> */}
+       <div className="container-fluid cards-section">
+                <h3>Here are a few examples of legal fields that SwiftLaw can provide services in:</h3>
+                {/* <p>Here are a few examples of legal fields that SwiftLaw can provide services in:</p> */}
+                <div className="cards-div row">
+                    <div className="card col-md-6 col-3 col-sm-12">
+                        <div>
+                            <img src={card1} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5>Wills and estates</h5>
+                                <p className="card-text">Helping clients with drafting and reviewing wills, setting up trusts, and handling probate matters.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card col-md-6 col-3 col-sm-12">
+                        <div >
+                            <img src={card2} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5>Family law</h5>
+                                <p className="card-text">providing advice and representation for clients dealing with issues such as divorce, child custody and support, adoption, and domestic violence.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card col-md-6 col-3 col-sm-12">
+                        <div>
+                            <img src={card3} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5>Business law </h5>
+                                <p className="card-text">Advising businesses and entrepreneurs on legal matters such as incorporation, contracts, employment law.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card col-md-6 col-3 col-sm-12">
+                        <div>
+                            <img src={card4} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5>Criminal law</h5>
+                                <p className="card-text">Representing clients charged with criminal offenses and providing advice and guidance on navigating the criminal justice system.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div className="cards-div row">
+                    <div className="card col-md-6 col-3 col-sm-12">
+                        <div>
+                            <img src={card5} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5>Immigration law</h5>
+                                <p className="card-text">Helping clients with all aspects of immigration, including visas, naturalization, and removal proceedings.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card col-md-6 col-3 col-sm-12">
+                        <div >
+                            <img src={card6} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5>Employment law</h5>
+                                <p className="card-text">Representing both employers and employees in matters such as discrimination, harassment, wrongful termination.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card col-md-6 col-3 col-sm-12">
+                        <div>
+                            <img src={card7} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5>Real estate law</h5>
+                                <p className="card-text">Assisting clients with the purchase, sale, leasing, and financing of real property, as well as landlord-tenant issues.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="card col-md-6 col-3 col-sm-12">
+                        <div>
+                            <img src={card8} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                <h5>Personal injury law</h5>
+                                <p className="card-text">Representing clients who have been injured due to the negligence of another party compensation for their losses.</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div className='texth'>
+                      <h6>This list is not exhaustive. It is worth noting that the legal services that SwiftLaw provides
+                      could depending on<br/> the focus of the platform, the lawyers and
+                      their areas of expertise, as well as the market demand.</h6>
+                      </div>
+                </div>
+                <div className="button-div">
+                <a className="nav-link" href="https://swiftlaw.com.au/sign-in">
+                    <button>BOOK AN APPOINTMENT</button></a>
+                </div>
+            </div>
 
       {/* services section */}
       {/* <div className="container-fluid services-outer ">
@@ -57,7 +158,7 @@ function Services() {
       </div> */}
 
       {/* consultation cover section */}
-      <div className="container-fluid cover-section">
+      {/* <div className="container-fluid cover-section">
         <div className="row">
           <div className="cover-head">
             <h2>Wills and estates Helping clients with drafting and reviewing wills:</h2>
@@ -67,7 +168,7 @@ function Services() {
               <p>Personal injury law : Representing clients who have been injured.</p>
               <p>Business law : Advising businesses and entrepreneurs on legal matters.</p>
               <p>Immigration law : Helping clients with all aspects of immigration.</p>
-              {/* <p><i class="fa fa-arrow-right"></i><b>Real estate law : </b>Assisting clients with the purchase, sale, leasing.</p> */}
+              <p><i class="fa fa-arrow-right"></i><b>Real estate law : </b>Assisting clients with the purchase, sale, leasing.</p>
               
             </div>
             <div className="item-arrow-right">
@@ -90,7 +191,7 @@ function Services() {
             
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

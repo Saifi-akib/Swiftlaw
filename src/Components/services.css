@@ -142,7 +142,11 @@
     flex-direction: column;
     justify-content: center;
 }
-
+.laywers
+{
+    width: 63%;
+    margin-top: 25px;
+}
 p span {
     margin-left: 10px;
     text-align: left;
@@ -308,6 +312,18 @@ p span {
         flex-basis: 80%;
         justify-content: space-around;
     }
+    .services-main h6 
+    {
+        color: white;
+    }
+    .services-main h2
+    {
+        color: white;
+    }
+    .services-main h5
+    {
+        color: white;
+    }
 
     .about-swift .para-div {
         /* margin: auto auto; */
@@ -319,14 +335,14 @@ p span {
     }
 
     .services-main {
-        background-image: url('/src/assets/services-hero.png');
+        background-image: url('../assets/lawyerbackground.jpg');
         max-width: 100%;
         background-repeat: no-repeat;
         background-size: cover;
 
     }
     .deseases-section {
-    width: 100%;
+    width: 85%;
     }
     .nav-curve2{
         margin-top: -195px;
@@ -338,6 +354,10 @@ p span {
         height: 50%;
         width: 100%;
     }
+    .texth h6
+   {
+    font-size: 13px;
+   }
 
     .services-main .services-left {
         z-index: 1;
@@ -357,5 +377,21 @@ p span {
     .cover-points{
         /* display: flex; */
         flex-wrap: nowrap;
+    }
+}
+@media(max-width: 767px){
+.row .cover-head h2 {
+    font-size: 40px!important;
+    line-height: 48px!important;
+    justify-content: left !important;
+    
+}
+}
+@media(max-width: 367px)
+{
+    .row .cover-head h2 {
+    font-size: 20px!important;
+    line-height: 30px!important;
+    text-align: left !important;
     }
 }

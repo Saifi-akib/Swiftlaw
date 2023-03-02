@@ -4,9 +4,7 @@ import './services.css'
 import brands from '../assets/brands.png'
 import img2 from '../assets/img2 (1).png'
 import img1 from '../assets/head1.png'
-// import img1 from '../assets/services-hero.png'
 import img3 from '../assets/text.png'
-//import card from '../assets/card1.png'
 import card1 from '../assets/virtual.png'
 import card2 from '../assets/video-camera.png'
 import card3 from '../assets/date.png'
@@ -15,24 +13,25 @@ function Page() {
     return (
         <>
             {/* Hero section starts */}
+            <div className='background-image'>
             <div className="container-fluid hero-section">
                 <div className="row justify-content-md-center">
                     <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                         <h1>Welcome to SwiftLaw</h1>
                         <h4>The new and convenient way to speak <b> with a lawyer on video</b><b>At SwiftLaw</b></h4>
-                        <p>We understand that legal matters can be stressful and time-consuming, <br /> which is why we've created an innovative platform that allows you to<br /> connect with experienced lawyers from the comfort of your own home..</p>
+                        <p>We understand that legal matters can be stressful which is,<br />why we created an innovative platform that allows connect,<br />  with experienced lawyers comfort of your own home..</p>
                         <div className="hero-btn">
                             <button>BOOK AN APPOINTMENT</button>
                         </div>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                         <div className="image">
-                            <img src={img1} alt="" />
+                            {/* <img src={img1} alt="" /> */}
                         </div>
                     </div>
                 </div>
             </div>
-
+</div>
             {/* hero section */}
             {/* <div className="container-fluid services-main">
         <div className="row">
@@ -161,20 +160,20 @@ function Page() {
 
             <div className="container-fluid info-main" style={{position:"relative"}}>
                 <div className="row pb-md-4">
-                    <div className="col-12 col-md-12 col-lg-5 col-sm-12 info-left">
+                    <div className="col-12 col-md-12 col-lg-5 col-sm-12 info-right">
                         {/* <h6>OUR SERVICES</h6> */}
-                        <h2>All of our lawyers are fully licensed and experienced in their field, 
-                            and we offer competitive rates for our services With SwiftLaw.</h2>
-                        <p>We also have the latest in encryption technology to ensure your discussions, 
-                            documents and information are safe and secure.</p>
+                        <h2>All of our lawyers are fully licensed and experienced in their field,we offer services With SwiftLaw.</h2>
+                        <p style={{color:"#016cb2"}}>We also have the latest in encryption technology to ensure your discussions.</p>
                         <div className="info-btn-div">
-                            <button>LEARN MORE ABOUT OUR SERVICES</button>
+                        <a className="nav-link" href="https://swiftlaw.com.au/sign-in">
+                            <button>LEARN MORE ABOUT OUR SERVICES</button></a>
                         </div>
                     </div>
 
                     <div className="col-12 col-md-12 col-lg-7 col-sm-12" >
                         <div className="info-right" >
                             <img src={img2} alt="" />
+                            
                         </div>
                     </div>
                 </div>
@@ -184,7 +183,7 @@ function Page() {
 
 
             {/* brands section */}
-            <div className="container brands-section">
+            {/* <div className="container brands-section">
                 <div className="row">
                     <div className="col">
                         <div className="brands-head">
@@ -199,7 +198,7 @@ function Page() {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
         </>
     )
 }

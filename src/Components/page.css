@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
 .hero-section {
-    background: linear-gradient(33deg, #016cb2 49%, #19d5d3 89%);
-    overflow: hidden;
-    padding-top: 15vh;
-    position: relative;
-    color: white;
-    position: relative;
+
     width: 100%;
+    padding-top: 15vh;
+    position:relative;
+    color: white;
     margin: 0;
     z-index: 2;
     padding-bottom: 80px;
     padding-top: 170px;
     padding-left: 150px;
-
+}
+.background-image
+{
+    background-image: url('../assets/lawyerbackground.png');
+    background-size:contain;
+    background-size: 100% auto;
+   
 }
 
 .hero-section h1 {
@@ -198,7 +202,7 @@
     position: absolute;
     height: 100px;
     width: 100px;
-    border-radius: 50%;
+    border-radius: 28px;
     padding: 20px;
     left: 75px;
     bottom: 200px;
@@ -326,6 +330,12 @@
     font-weight: 500;
     color: #016cb2;
     font-weight: 700;
+    margin-top: 40px;
+    margin-left: 12%;
+}
+.info-main p
+{
+    margin-left: 12%;
 }
 
 .info-main h5 {
@@ -344,7 +354,7 @@
     opacity: 1;
 }
 
-.info-main .info-right img{
+/* .info-main .info-right img{
     height: auto;
     max-width: 100%;
     object-fit: cover;
@@ -360,6 +370,23 @@
     width: 100%;
     width: 60%;
     left: 40%;
+} */
+.info-main .info-right img {
+    height: 94%;
+    max-width: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    max-width: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    width: 71%;
+    left: 29%;
 }
 .info-main .info-left p{
     margin-bottom: 5vh;
@@ -380,6 +407,11 @@
     border-radius: 4px;
     text-transform: none;
     border: none;
+    margin-left: 12%;
+}
+.info-main .info-btn-div button:hover
+{
+    background: linear-gradient(33deg, rgba(1, 108, 178, 1) 49%, rgba(25, 213, 211, 1) 89%);
 }
 .info-main .info-left{
     position: relative;
@@ -392,7 +424,9 @@
 @media (max-width:768px) {
     .featured-section p{
         font-size: 22px !important;
+        margin-top: 22px;
     }    
+    
     .hero-section{
         padding: 30px !important;
         padding-top: 100px !important;
@@ -428,9 +462,32 @@
     }
     .info-main .info-right img{
         position: unset;
+        opacity: 1;
     }
     .info-main .info-right img {
         width: 100%;
+        text-align: left;
+        margin: -11px;
+    margin-top: 5px;
+    margin-bottom: 12px;
+    }
+    .info-main h2 
+    {
+        text-align: left;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .info-main p
+    {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .info-main .info-btn-div button
+    {
+        text-align: center;
+        margin-left: 22%;
+    
+        margin-bottom: 10px;
     }
     .info-main .info-left{
         padding-left: 50px !important;
@@ -438,15 +495,33 @@
 
     }
     .info-right{
-        text-align: center;
-        justify-content: center;
+        text-align: left;
+        justify-content: left;
         align-items: center;
-        width: 70%;
-        margin-left: 100px;
+        width: 100%;
+        margin-left: 10px;
     }
     
 }
-
+@media (max-width:380px)
+{
+    .info-main p
+    {
+        text-align: left;
+        margin-left: 0px;
+    }
+    .info-main .info-btn-div button
+    {
+        text-align: center;
+        margin-left: 2%;
+        /* margin-bottom: 10px; */
+    }
+    .info-main .info-right img{
+        
+        justify-content: center;
+        
+    }
+}
 /* @media (max-width: 767px) {
     .hero-section {
         width: 1078px;

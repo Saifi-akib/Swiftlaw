@@ -15,8 +15,8 @@ function Footer() {
                         <img src={swiftlaw} alt="swift" />
                     </div>
                     <div className="footer-text">
-                        <h4>Download the 
-                            Swiftdoc App</h4>
+                        <h4>Download the</h4> 
+                           <h4> Swiftlaw App</h4>
                         <p>Get Instant Access to Online lawyers</p>
                     </div>
                     <div className="download">

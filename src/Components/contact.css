@@ -38,10 +38,18 @@
     .fullbody
     {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         
     }
-    .form-fields-container input, .form-fields-container textarea {
+    .fullbody p
+{
+    font-size: 12px;
+    text-align: left;
+    margin-bottom: -14px;
+    font-style: italic;
+    font-weight: 200 !important;
+}
+.form-fields-container input, .form-fields-container textarea {
         background-color: #fff;
         border: none;
         border-radius: 10px;

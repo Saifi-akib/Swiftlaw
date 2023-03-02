@@ -3,12 +3,13 @@
 .about-swift, .cover-head {
     text-align: left;
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
 }
 .content
 {
     margin-bottom: 100px;
 }
+
 .cover-head h4
 {
     font-size: 20px;
@@ -57,5 +58,41 @@
         text-align: left;
         
     }
+    .about-swift, .cover-head h4
+    {
+        text-align: left !important;
+        font-size: 15px;
+    }
+    
     
 }
+@media (min-width: 367px)
+    {
+        .deseases-sections .head h5{
+                       font-size: 15px;
+        }
+        .cover-head h4{
+              text-align: left;
+              font-size: 18px;
+        }
+    
+        .cover-head .informtion h4
+        {
+            text-align: left;
+        }
+    }
+    @media (max-width: 959.95px){
+
+        .deseases-sections .head h5{
+            font-size: 15px;
+}
+.cover-head h4{
+   text-align: left;
+   font-size: 18px;
+}
+
+.cover-head .informtion h4
+{
+ text-align: left;
+}
+    }
